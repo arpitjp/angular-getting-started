@@ -4,7 +4,11 @@
 set -e
 
 # build
+<<<<<<< HEAD
 ng build --base-href="/angular-getting-started/"
+=======
+ng build
+>>>>>>> 97deb4af567e8c1160e4ce64b9e9b3f281a8f3c5
 
 # navigate into the build output directory
 cd dist
